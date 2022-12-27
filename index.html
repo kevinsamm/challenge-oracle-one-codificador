@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;800&display=swap" rel="stylesheet">
+    <title>Alura - Challenge ONE 1</title>
+</head>
+<body>
+    <div class="contenedor-principal">
+        <div class="contenedor-logo">
+            <img src="images/Logo.svg" width="100" alt="Logo de Alura">
+        </div>
+        <div class="contenedor-texto">
+            <textarea type="text" id="texto" rows="14" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="advertencia">
+                <img src="images/bi_exclamation-circle-fill.png" width="16px" height="16px" alt="Signo de advertencia">
+                <p class="texto-advertencia">Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="botones">
+                <button class="boton-primario">Encriptar</button>
+                <button class="boton-secundario">Desencriptar</button>
+            </div>
+        </div>
+        <div class="contenedor-encriptador">
+            <p class="mensaje-encriptado"></p>
+            <div class="contenedor-no-encontrado">
+                <img src="images/Muñeco.svg" alt="Imagen de una persona viendo un diamante">
+                <p class="primer-mensaje">Ningún mensaje fue encontrado</p>
+                <p class="segundo-mensaje">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <div class="boton-copiar">
+                <button class="copiar">Copiar</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Kevin Sammillan 2022 - Challenge Oracle One</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
